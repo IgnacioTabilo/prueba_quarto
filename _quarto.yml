@@ -27,8 +27,10 @@ website:
           contents:
             - tutorials/tutorial1.qmd
             - tutorials/tutorial2.qmd
-            - text: "Ejemplo Jupyter"
+            - text: "Ejemplo QMD"
               href: ejercicios/hello.qmd
+            - text: "Ejemplo .ipynb"
+              href: ejercicios/hello.ipynb
 
 format:
   html:
