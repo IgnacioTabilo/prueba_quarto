@@ -74,7 +74,7 @@
     "href": "ejercicios/hello.html#handcalcs",
     "title": "Quarto Computations",
     "section": "Handcalcs",
-    "text": "Handcalcs\n\nimport handcalcs.render\n\n\n%%render long\nA_1 = 34.5 #m$^2$\nm_s = 2.35 #kg$\\cdot$s$^{-1}$\nF = m_s/A_1 #kg$\\cdot$m$^{-2}\\cdot$s$^{-1}$\n\n&lt;IPython.core.display.Latex object&gt;",
+    "text": "Handcalcs\n\nimport IPython\nimport handcalcs.render\n\n\n%%render long\nA_1 = 34.5 #m$^2$\nm_s = 2.35 #kg$\\cdot$s$^{-1}$\nF = m_s/A_1 #kg$\\cdot$m$^{-2}\\cdot$s$^{-1}$\n\n&lt;IPython.core.display.Latex object&gt;",
     "crumbs": [
       "Tutoriales",
       "Jupyter",
