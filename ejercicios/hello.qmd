@@ -7,7 +7,9 @@ jupyter: python3
 <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Show</a>
 
 ::: {#multiCollapseExample1 .collapse .multi-collapse}
-hello
+
+¿Cambios?
+
 ```{python}
 import numpy as np
 a = np.arange(15).reshape(3, 5)
@@ -15,8 +17,7 @@ a
 ```
 
 adios
-:::
-hola
+
 ## Matplotlib
 
 ```{python}
@@ -40,6 +41,8 @@ plt.errorbar(x, y, yerr=yerr, uplims=upperlimits, lolims=lowerlimits,
 plt.legend(loc='lower right')
 plt.show(fig)
 ```
+
+:::
 
 ## Plotly
 
