@@ -30,7 +30,7 @@ website:
             - text: "Ejemplo QMD"
               href: ejercicios/hello.qmd
             - text: "Ejemplo .ipynb"
-              href: ejercicios/hello.ipynb
+              href: ejercicios/hello2.ipynb
 
 format:
   html:
