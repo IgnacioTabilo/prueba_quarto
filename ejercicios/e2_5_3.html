@@ -261,7 +261,7 @@ window.Quarto = {
    
   <ul>
   <li><a href="#enunciado" id="toc-enunciado" class="nav-link active" data-scroll-target="#enunciado">Enunciado</a></li>
-  <li><a href="#onqcpyrl-.imagesimg2_5_3.png" id="toc-onqcpyrl-.imagesimg2_5_3.png" class="nav-link" data-scroll-target="#onqcpyrl-.imagesimg2_5_3.png">```onqcpyrl ./images/img2_5_3.png</a>
+  <li><a href="#solución" id="toc-solución" class="nav-link" data-scroll-target="#solución">Solución</a>
   <ul class="collapse">
   <li><a href="#inciso-1" id="toc-inciso-1" class="nav-link" data-scroll-target="#inciso-1">Inciso 1</a></li>
   <li><a href="#inciso-2-y-3" id="toc-inciso-2-y-3" class="nav-link" data-scroll-target="#inciso-2-y-3">Inciso 2 y 3</a></li>
@@ -296,50 +296,26 @@ window.Quarto = {
 <section id="enunciado" class="level2">
 <h2 class="anchored" data-anchor-id="enunciado">Enunciado</h2>
 <p>Un evaporador de dos efectos verticales es utilizado para concentrar un flujo de una solución de sólidos disueltos al <span class="math inline">\(19~\%\)</span>. El flujo entra al sistema a <span class="math inline">\(80000~\text{L/h}\)</span> con una temperatura de <span class="math inline">\(25~\text{°C}\)</span>. Se quiere alcanzar una concentración de sólidos del <span class="math inline">\(40~\%\)</span>. Al entrar, el flujo pasa por dos intercambiadores de tubo y carcasa a contra-corrientes <span class="math inline">\(a\)</span> y <span class="math inline">\(b\)</span> que actuan como calentadores. Luego, pasa a través del segundo y primer efecto como muestra la figura. El vapor que se utiliza en el calentador <span class="math inline">\(a\)</span> proviene de la linea de vapor entre el segundo efecto y el condensador <span class="math inline">\(C\)</span>. Mientras que para el calentador <span class="math inline">\(b\)</span> se utiliza el vapor proveniente de la linea de vapor entre el primer y segundo efecto. La diferencia de temperaturas <span class="math inline">\(\Delta T_h\)</span> para ambos calentadores es de <span class="math inline">\(10~\text{°C}\)</span>. Por último, la temperatura de entrada del vapor saturado de la corriente <span class="math inline">\(\text{S}\)</span> es de <span class="math inline">\(110~\text{°C}\)</span>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img2_5_3.png" class="img-fluid figure-img" style="width:60.0%"></p>
+<figcaption>Sistema de dos efectos backward.</figcaption>
+</figure>
+</div>
+<p>Además, su mejor amigo le asegura que las diferencias de temperatura para cada intercambiador son <span class="math inline">\(\Delta T_1 = 22~\text{°C}\)</span> y <span class="math inline">\(\Delta T_2 = 15~\text{°C}\)</span>. Para corroborar, le entrega la siguiente información. - La gravedad específica para sólidos disueltos al <span class="math inline">\(19\%\)</span> es <span class="math inline">\(1.0632\)</span> y la densidad del agua es <span class="math inline">\(0.995~\text{kg/L}\)</span>. - Las elevaciones del punto de ebullición (EPE) son <span class="math inline">\(7~\text{°C}\)</span> y <span class="math inline">\(4~\text{°C}\)</span> para el primer y segundo efecto respectivamente. - Los coeficientes de transferencia global de calor corregidos son <span class="math inline">\(25555.12~\text{W/m}^2\cdot\text{K}\)</span> para <span class="math inline">\(\text{E}1\)</span> y <span class="math inline">\(39974.8~\text{W/m}^2\cdot\text{K}\)</span> para <span class="math inline">\(\text{E}2\)</span>. - Considere que el calor latente del vapor será <span class="math inline">\(\lambda_{s}=2183~\text{kJ/kg}\)</span>, <span class="math inline">\(\lambda_{1}=2341~\text{kJ/kg}\)</span> y <span class="math inline">\(\lambda_{2}=2678~\text{kJ/kg}\)</span>. - La ecuación para el calor específico a presión constante en función de la temperatura (en °C) es:</p>
+<p><span class="math display">\[c_p (\text{J/kg}\cdot\text{°C}) = 6.5684 T + 3499\]</span></p>
+<p>Encuentre: 1. La fracción másica de sólidos disueltos luego del segundo efecto. 2. El flujo másico de vapor requerido en la corriente <span class="math inline">\(\text{S}\)</span> en <span class="math inline">\(\text{kg/h}\)</span>. 3. El área de transferecia de calor para cada efecto en <span class="math inline">\(\text{m}^2\)</span>. 4. La economía del intercambiador. 5. El calor a ser removido del condensdor en <span class="math inline">\(\text{MW}\)</span>.</p>
 </section>
-<section id="onqcpyrl-.imagesimg2_5_3.png" class="level2">
-<h2 class="anchored" data-anchor-id="onqcpyrl-.imagesimg2_5_3.png">```onqcpyrl ./images/img2_5_3.png</h2>
-<p>align: center name: fig253 scale: 60% —</p>
-<p>Diagrama de evaporador de 2 efectos backward.</p>
-<pre><code>
-Además, su mejor amigo le asegura que las diferencias de temperatura para cada intercambiador son $\Delta T_1 = 22~\text{°C}$ y$\Delta T_2 = 15~\text{°C}$. Para corroborar, le entrega la siguiente información.
-- La gravedad específica para sólidos disueltos al $19\%$ es $1.0632$ y la densidad del agua es $0.995~\text{kg/L}$.
-- Las elevaciones del punto de ebullición (EPE) son $7~\text{°C}$ y $4~\text{°C}$ para el primer y segundo efecto respectivamente.
-- Los coeficientes de transferencia global de calor corregidos son $25555.12~\text{W/m}^2\cdot\text{K}$ para $\text{E}1$ y $39974.8~\text{W/m}^2\cdot\text{K}$ para $\text{E}2$.
-- Considere que el calor latente del vapor será $\lambda_{s}=2183~\text{kJ/kg}$, $\lambda_{1}=2341~\text{kJ/kg}$ y $\lambda_{2}=2678~\text{kJ/kg}$.
-- La ecuación para el calor específico a presión constante en función de la temperatura (en °C) es:
-
-$$c_p (\text{J/kg}\cdot\text{°C}) = 6.5684 T + 3499$$
-
-Encuentre:
-1. La fracción másica de sólidos disueltos luego del segundo efecto.
-2. El flujo másico de vapor requerido en la corriente $\text{S}$ en $\text{kg/h}$.
-3. El área de transferecia de calor para cada efecto en $\text{m}^2$.
-4. La economía del intercambiador.
-5. El calor a ser removido del condensdor en $\text{MW}$.
-
-{ref}`Ver solución &lt;part2:cap5:ex3:sol&gt;`
-
-&lt;br/&gt;&lt;br/&gt;
-&lt;br/&gt;&lt;br/&gt;
-&lt;br/&gt;&lt;br/&gt;
-&lt;br/&gt;&lt;br/&gt;
-&lt;br/&gt;&lt;br/&gt;
-&lt;br/&gt;&lt;br/&gt;
-&lt;br/&gt;&lt;br/&gt;
-&lt;br/&gt;&lt;br/&gt;
-
-(part2:cap5:ex3:sol)=
-## Solución
-
-::: {#6a0d4e98-0f49-44bd-a8d8-5439f2668970 .cell execution_count=1}
-``` {.python .cell-code}
-import handcalcs
-import handcalcs.render
-handcalcs.set_option("custom_symbols",{"dT": "\Delta T", "dEPE": "\Delta EPE", "dotm": "\dot{m", "lambda": "\lambda"})
-from sympy import *
-from sympy.solvers.solveset import linsolve</code></pre>
-<p>:::</p>
+<section id="solución" class="level2">
+<h2 class="anchored" data-anchor-id="solución">Solución</h2>
+<div id="6a0d4e98-0f49-44bd-a8d8-5439f2668970" class="cell" data-execution_count="1">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> handcalcs.render</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>handcalcs.set_option(<span class="st">"custom_symbols"</span>,{<span class="st">"dT"</span>: <span class="st">"\Delta T"</span>, <span class="st">"dEPE"</span>: <span class="st">"\Delta EPE"</span>, <span class="st">"dotm"</span>: <span class="st">"\dot{m"</span>, <span class="st">"lambda"</span>: <span class="st">"\lambda"</span>})</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>handcalcs.set_option(<span class="st">"latex_block_start"</span>, <span class="st">"$$"</span>)</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>handcalcs.set_option(<span class="st">"latex_block_end"</span>, <span class="st">"$$"</span>)</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sympy <span class="im">import</span> <span class="op">*</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sympy.solvers.solveset <span class="im">import</span> linsolve</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 <section id="inciso-1" class="level3">
 <h3 class="anchored" data-anchor-id="inciso-1">Inciso 1</h3>
 <div id="736fc29f-90b9-466b-a00a-e335a1e01a6e" class="cell" data-execution_count="2">
