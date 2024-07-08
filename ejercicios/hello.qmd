@@ -9,13 +9,13 @@ jupyter: python3
 
 lore ipsum dolor sit amet 2
 
-:::
-
 ```{python}
 import numpy as np
 a = np.arange(15).reshape(3, 5)
 a
 ```
+
+:::
 
 ## Matplotlib
 
