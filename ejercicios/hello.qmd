@@ -3,7 +3,13 @@ title: Quarto Computations
 jupyter: python3
 ---
 
-## NumPy
+## NumPy <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Show</a>
+
+::: {#multiCollapseExample1 .collapse .multi-collapse}
+
+lore ipsum dolor sit amet 2
+
+:::
 
 ```{python}
 import numpy as np
