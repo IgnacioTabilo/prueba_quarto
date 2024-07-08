@@ -1,0 +1,23 @@
+{
+  "about.qmd": {
+    "about.html": "4736ca37"
+  },
+  "compatibility.qmd": {
+    "compatibility.html": "6c059597"
+  },
+  "ejercicios/hello.qmd": {
+    "hello.html": "55195835"
+  },
+  "index.qmd": {
+    "index.html": "5b4bc46c"
+  },
+  "tutorials/tutorial.qmd": {
+    "tutorial.html": "66cf2a97"
+  },
+  "tutorials/tutorial1.qmd": {
+    "tutorial1.html": "8d19b76a"
+  },
+  "tutorials/tutorial2.qmd": {
+    "tutorial2.html": "834eeda3"
+  }
+}
