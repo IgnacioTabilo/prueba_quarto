@@ -15,8 +15,9 @@ a = np.arange(15).reshape(3, 5)
 a
 ```
 
+adios
 :::
-
+hola
 ## Matplotlib
 
 ```{python}
