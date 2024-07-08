@@ -8,6 +8,7 @@ jupyter: python3
 
 ::: {#multiCollapseExample1 .collapse .multi-collapse}
 
+
 ¿Cambios?
 
 ```{python}
