@@ -264,13 +264,7 @@ window.Quarto = {
    
   <ul>
   <li><a href="#enunciado" id="toc-enunciado" class="nav-link active" data-scroll-target="#enunciado">Enunciado</a></li>
-  <li><a href="#solución" id="toc-solución" class="nav-link" data-scroll-target="#solución">Solución</a>
-  <ul class="collapse">
-  <li><a href="#inciso-1" id="toc-inciso-1" class="nav-link" data-scroll-target="#inciso-1">Inciso 1</a></li>
-  <li><a href="#inciso-2-y-3" id="toc-inciso-2-y-3" class="nav-link" data-scroll-target="#inciso-2-y-3">Inciso 2 y 3</a></li>
-  <li><a href="#inciso-4" id="toc-inciso-4" class="nav-link" data-scroll-target="#inciso-4">Inciso 4</a></li>
-  <li><a href="#inciso-5" id="toc-inciso-5" class="nav-link" data-scroll-target="#inciso-5">Inciso 5</a></li>
-  </ul></li>
+  <li><a href="#solución" id="toc-solución" class="nav-link" data-scroll-target="#solución">Solución</a></li>
   </ul>
 </nav>
     </div>
@@ -318,6 +312,10 @@ window.Quarto = {
 </section>
 <section id="solución" class="level2">
 <h2 class="anchored" data-anchor-id="solución">Solución</h2>
+<button class="btn btn-success" data-bs-toggle="collapse" href="#multiCollapseExample1" aria-expanded="false">
+Mostrar solución
+</button>
+<div id="multiCollapseExample1" class="collapse multi-collapse">
 <div id="6a0d4e98-0f49-44bd-a8d8-5439f2668970" class="cell" data-execution_count="26">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> handcalcs.render</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>handcalcs.set_option(<span class="st">"custom_symbols"</span>,{<span class="st">"dT"</span>: <span class="st">"\Delta T"</span>, <span class="st">"dEPE"</span>: <span class="st">"\Delta EPE"</span>, <span class="st">"dotm"</span>: <span class="st">"\dot{m"</span>, <span class="st">"lambda"</span>: <span class="st">"\lambda"</span>})</span>
@@ -726,9 +724,10 @@ R &amp;= 12.4 \; \;\textrm{(MW)}
 \]</span></p>
 </div>
 </div>
-
-
 </section>
+</div>
+
+
 </section>
 
 </main> <!-- /main -->
