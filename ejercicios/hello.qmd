@@ -4,7 +4,7 @@ jupyter: python3
 ---
 
 ## NumPy
-<button class="btn btn-info" data-bs-toggle="collapse" href="#multiCollapseExample1" aria-expanded="false">Mostrar solución</button>
+<button class="btn btn-success" data-bs-toggle="collapse" href="#multiCollapseExample1" aria-expanded="false">Mostrar solución</button>
 
 ::: {#multiCollapseExample1 .collapse .multi-collapse}
 
