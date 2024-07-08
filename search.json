@@ -22,6 +22,80 @@
     ]
   },
   {
+    "objectID": "ejercicios/hello2.html",
+    "href": "ejercicios/hello2.html",
+    "title": "Quarto Computations",
+    "section": "",
+    "text": "import numpy as np\na = np.arange(15).reshape(3, 5)\na\n\narray([[ 0,  1,  2,  3,  4],\n       [ 5,  6,  7,  8,  9],\n       [10, 11, 12, 13, 14]])",
+    "crumbs": [
+      "Tutoriales",
+      "Jupyter",
+      "Ejemplo .ipynb"
+    ]
+  },
+  {
+    "objectID": "ejercicios/hello2.html#numpy",
+    "href": "ejercicios/hello2.html#numpy",
+    "title": "Quarto Computations",
+    "section": "",
+    "text": "import numpy as np\na = np.arange(15).reshape(3, 5)\na\n\narray([[ 0,  1,  2,  3,  4],\n       [ 5,  6,  7,  8,  9],\n       [10, 11, 12, 13, 14]])",
+    "crumbs": [
+      "Tutoriales",
+      "Jupyter",
+      "Ejemplo .ipynb"
+    ]
+  },
+  {
+    "objectID": "ejercicios/hello2.html#matplotlib",
+    "href": "ejercicios/hello2.html#matplotlib",
+    "title": "Quarto Computations",
+    "section": "Matplotlib",
+    "text": "Matplotlib\n\nimport matplotlib.pyplot as plt\n\nfig = plt.figure()\nx = np.arange(10)\ny = 2.5 * np.sin(x / 20 * np.pi)\nyerr = np.linspace(0.05, 0.2, 10)\n\nplt.errorbar(x, y + 3, yerr=yerr, label='both limits (default)')\nplt.errorbar(x, y + 2, yerr=yerr, uplims=True, label='uplims=True')\nplt.errorbar(x, y + 1, yerr=yerr, uplims=True, lolims=True,\n             label='uplims=True, lolims=True')\n\nupperlimits = [True, False] * 5\nlowerlimits = [False, True] * 5\nplt.errorbar(x, y, yerr=yerr, uplims=upperlimits, lolims=lowerlimits,\n             label='subsets of uplims and lolims')\n\nplt.legend(loc='lower right')\nplt.show(fig)",
+    "crumbs": [
+      "Tutoriales",
+      "Jupyter",
+      "Ejemplo .ipynb"
+    ]
+  },
+  {
+    "objectID": "ejercicios/hello2.html#plotly",
+    "href": "ejercicios/hello2.html#plotly",
+    "title": "Quarto Computations",
+    "section": "Plotly",
+    "text": "Plotly\nimport plotly.express as px\nimport plotly.io as pio\ngapminder = px.data.gapminder()\ndef gapminder_plot(year):\n    gapminderYear = gapminder.query(\"year == \" + \n                                    str(year))\n    fig = px.scatter(gapminderYear, \n                     x=\"gdpPercap\", y=\"lifeExp\",\n                     size=\"pop\", size_max=60,\n                     hover_name=\"country\")\n    fig.show()\n    \ngapminder_plot(1957)\ngapminder_plot(2007)\n\n\n\n\n\n\n\n\nUnable to display output for mime type(s): application/vnd.plotly.v1+json\n\n\n(a) Gapminder: 1957\n\n\n\n\n\n\n\n\nUnable to display output for mime type(s): application/vnd.plotly.v1+json\n\n\n(b) Gapminder: 2007\n\n\n\n\n\n\n\nFigure 1: Life Expectancy and GDP",
+    "crumbs": [
+      "Tutoriales",
+      "Jupyter",
+      "Ejemplo .ipynb"
+    ]
+  },
+  {
+    "objectID": "ejercicios/hello2.html#handcalcs",
+    "href": "ejercicios/hello2.html#handcalcs",
+    "title": "Quarto Computations",
+    "section": "Handcalcs",
+    "text": "Handcalcs\n\nimport handcalcs.render\nimport IPython\n\n\n%%render long\nA_1 = 34.5 #m$^2$\nm_s = 2.35 #kg$\\cdot$s$^{-1}$\nF = m_s/A_1 #kg$\\cdot$m$^{-2}\\cdot$s$^{-1}$\n\n&lt;IPython.core.display.Latex object&gt;",
+    "crumbs": [
+      "Tutoriales",
+      "Jupyter",
+      "Ejemplo .ipynb"
+    ]
+  },
+  {
+    "objectID": "compatibility.html",
+    "href": "compatibility.html",
+    "title": "Paquetes",
+    "section": "",
+    "text": "Paquetes necesarios: numpy, scipy, handcalcs"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
     "objectID": "ejercicios/hello.html",
     "href": "ejercicios/hello.html",
     "title": "Quarto Computations",
@@ -80,20 +154,6 @@
       "Jupyter",
       "Ejemplo QMD"
     ]
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
-  },
-  {
-    "objectID": "compatibility.html",
-    "href": "compatibility.html",
-    "title": "Paquetes",
-    "section": "",
-    "text": "Paquetes necesarios: numpy, scipy, handcalcs"
   },
   {
     "objectID": "index.html",
