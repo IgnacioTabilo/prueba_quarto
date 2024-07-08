@@ -1,0 +1,5 @@
+---
+title: "Instalación paquetes"
+---
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut ex nec dolor eleifend congue. Donec suscipit imperdiet turpis feugiat blandit. Quisque malesuada lectus ut justo bibendum tempus. Proin ornare lectus vitae euismod interdum. Pellentesque bibendum, ex sed porttitor pellentesque, augue metus tristique lacus, sit amet condimentum ligula eros eu erat. Donec turpis urna, pretium in commodo sagittis, posuere sed felis. Sed sit amet enim ac mauris vulputate varius. Aliquam erat volutpat. Donec quis mattis risus. Duis interdum nulla ac sem viverra lobortis. Suspendisse dapibus tortor nunc, in fringilla ipsum blandit a. 

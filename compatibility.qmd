@@ -1,0 +1,5 @@
+---
+title: "Paquetes"
+---
+
+Paquetes necesarios: numpy, scipy, handcalcs
