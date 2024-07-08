@@ -31,6 +31,8 @@ website:
               href: ejercicios/hello.qmd
             - text: "Ejemplo .ipynb"
               href: ejercicios/hello2.ipynb
+            - text: "Ejemplo libro IIQ2013"
+              href: ejercicios/e2_5_3.ipynb
 
 format:
   html:
