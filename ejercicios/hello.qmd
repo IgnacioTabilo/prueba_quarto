@@ -65,6 +65,7 @@ gapminder_plot(2007)
 ## Handcalcs
 
 ```{python}
+import IPython
 import handcalcs.render
 ```
 ```{python}
