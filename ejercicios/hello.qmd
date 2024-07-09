@@ -1,10 +1,10 @@
 ---
 title: Quarto Computations
 jupyter: python3
-notebook-links: global
-notebook-view:
-    - notebook: .\e2_3_1.ipynb
-      title: "Ejercicio de prueba"
+other-links:
+    - text: "Jupyter con la solución"
+      href: .\e2_3_1.ipynb
+      icon: book
 ---
 ## Embeded
 
