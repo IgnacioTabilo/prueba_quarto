@@ -1,13 +1,14 @@
 ---
 title: Quarto Computations
 jupyter: python3
+notebook-links: global
 notebook-view:
     - notebook: .\e2_3_1.ipynb
       title: "Ejercicio de prueba"
 ---
 ## Embeded
 
-{{< embed .\e2_3_1.ipynb >}}
+hola
 
 ## NumPy
 <button class="btn btn-success" data-bs-toggle="collapse" href="#multiCollapseExample1" aria-expanded="false">Mostrar solución</button>
