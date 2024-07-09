@@ -2,7 +2,7 @@
 title: Quarto Computations
 jupyter: python3
 notebook-view:
-    - notebook: .\e2_3_2.ipynb
+    - notebook: .\e2_3_1.ipynb
       title: "Ejercicio de prueba"
 ---
 ## Embeded
